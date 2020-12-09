@@ -25,4 +25,4 @@ build/
 dist/
 
 #config for postgreql
-config.js
+server.config.js

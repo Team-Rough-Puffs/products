@@ -1,6 +1,6 @@
 const pgConfig = require('./config.js');
 const { Client } = require('pg');
-const client = new Client(pgConfig.config);
+const client = new Client(pgConfig);
 
 client.connect(err => {
   if (err) {
@@ -21,10 +21,10 @@ const getProducts = (callback)=> {
     }
   });
 };
+// `SELECT "PRODUCTS_MAIN".id, "PRODUCTS_MAIN".name, "PRODUCTS_MAIN".slogan, "PRODUCTS_MAIN".description, "PRODUCTS_MAIN".category, "PRODUCTS_MAIN".default_price, "FEATURES".feature, "FEATURES".value FROM "PRODUCTS_MAIN" WHERE id = ${prodID} INNER JOIN "FEATURES" ON "PRODUCTS_MAIN".id="FEATURES".product_id`
 
-
-const getProductsForProduct = (callback)=> {
-  client.query('Insert query string', (err, res) => {
+const getItemsForProduct = (prodID, callback)=> {
+  client.query(`SELECT "PRODUCTS_MAIN".id, "PRODUCTS_MAIN".name, "PRODUCTS_MAIN".slogan, "PRODUCTS_MAIN".description, "PRODUCTS_MAIN".category, "PRODUCTS_MAIN".default_price, "FEATURES".feature, "FEATURES".value FROM "PRODUCTS_MAIN" INNER JOIN "FEATURES" ON "PRODUCTS_MAIN".id="FEATURES".product_id WHERE "PRODUCTS_MAIN".id = ${prodID}`, (err, res) => {
     if (err) {
       callback(err);
       return;
@@ -56,19 +56,6 @@ const getRelatedProducts = ()=> {
   });
 };
 
-// const databaseConfig = {
-//   'host': 'localhost',
-//   'port': 5432,
-//   'database': 'PRODUCTS',
-//   'user': 'postgres',
-//   'password': 'bunniegirl14#'
-// };
-
-// const pgp = require('pg-promise')({});
-// // how to use callback with console log statement to indicate connection succesful
-// // how do I know that nodemon is working
-// const db = pgp(databaseConfig);
-
 module.exports = {
-  getProducts, getProductsForProduct, getProductStyles, getRelatedProducts
+  getProducts, getItemsForProduct, getProductStyles, getRelatedProducts
 };
