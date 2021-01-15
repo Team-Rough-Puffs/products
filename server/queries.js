@@ -2,6 +2,7 @@ const pgConfig = require('./config.js');
 const { Client } = require('pg');
 const client = new Client(pgConfig);
 
+// FOR KIM/TOM REVIEW
 client.connect(err => {
   if (err) {
     console.error('connection error', err);
@@ -10,7 +11,7 @@ client.connect(err => {
   }
 });
 
-// query functions here // example
+// query functions here
 const getProducts = (callback)=> {
   client.query('Insert query string', (err, res) => {
     if (err) {

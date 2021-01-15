@@ -25,7 +25,4 @@ build/
 dist/
 
 #config for postgreql
-server.config.js
-
-# keys
-lucyec2key.pem
+server/config.js

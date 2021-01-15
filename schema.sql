@@ -94,3 +94,7 @@ COPY "RELATED_PRODUCTS"(id, current_product_id, related_product_id)
 FROM '/Users/lucyarmstrong/Public/SDC_CSVs/related.csv'
 DELIMITER ','
 CSV HEADER;
+
+
+CREATE UNIQUE INDEX prodid_idx ON "PRODUCTS_MAIN" (id);
+CREATE UNIQUE INDEX prodid_id ON "FEATURES" (product_id);
