@@ -62,7 +62,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@Lucyyystrong](https://twitter.com/Lucyyystrong) - lucyarmstrong45@gmail.com
 
-LinkedIn - [https://www.linkedin.com/in/lucyarmstrong1/]
+LinkedIn - https://www.linkedin.com/in/lucyarmstrong1/
 
 Project Link: [https://github.com/Team-Rough-Puffs/products/tree/development](https://github.com/Team-Rough-Puffs/products/tree/development)
 
