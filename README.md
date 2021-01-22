@@ -1,39 +1,85 @@
-# Project Name
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Team-Rough-Puffs/products/tree/development">
+  </a>
 
-> Project description
+  <h3 align="center">products API</h3>
+</p>
 
-## Related Projects
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+    </li>
+    <li><a href="#usage">Overall Goals:</a></li>
+    <li><a href="#roadmap">PostgreSQL Scaling:</a></li>
+    <li><a href="#contributing">Conclusion</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
 
-## Table of Contents
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Usage
+ Products is an microservice API of an e-commerce site for displaying recommended products based on viewing a particular item.
 
-> Some usage instructions
+### Built With
 
-## Requirements
+* [Express](https://expressjs.com/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [JavaScript](https://www.javascript.com/)
+* [pg](https://www.npmjs.com/package/pg)
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node 6.13.0
-- etc
+### Overall Goals:
 
-## Development
+Design API to handle 1000+ requests per second with an average response time of approximately 100ms from a dataset of 10M unique items on a local server instance.
 
-### Installing Dependencies
+### PostgreSQL Scaling:
 
-From within the root directory:
 
-```sh
-npm install -g webpack
-npm install
-```
+
+### Conclusion:
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@Lucyyystrong](https://twitter.com/Lucyyystrong) - lucyarmstrong45@gmail.com
+
+LinkedIn - https://www.linkedin.com/in/lucyarmstrong1/
+
+Project Link: [https://github.com/Team-Rough-Puffs/products/tree/development](https://github.com/Team-Rough-Puffs/products/tree/development)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Team-Rough-Puffs/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/Team-Rough-Puffs/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Team-Rough-Puffs/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/Team-Rough-Puffs/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/Team-Rough-Puffs/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/Team-Rough-Puffs/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Team-Rough-Puffs/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/Team-Rough-Puffs/repo/issues
+[license-shield]: https://img.shields.io/github/license/Team-Rough-Puffs/repo.svg?style=for-the-badge
+[license-url]: https://github.com/Team-Rough-Puffs/repo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/Team-Rough-Puffs
+
 
