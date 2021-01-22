@@ -1,8 +1,3 @@
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** Team-Rough-Puffs, products, Lucyyystrong, lucyarmstrong45@gmail.com,project_description
-
--->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -11,12 +6,10 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Team-Rough-Puffs/products">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Team-Rough-Puffs/products/tree/development">
   </a>
 
   <h3 align="center">products</h3>
@@ -24,14 +17,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Team-Rough-Puffs/products"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Team-Rough-Puffs/products/tree/development"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Team-Rough-Puffs/products">View Demo</a>
+    <a href="https://github.com/Team-Rough-Puffs/products/tree/development">View Demo</a>
     ·
-    <a href="https://github.com/Team-Rough-Puffs/products/issues">Report Bug</a>
+    <a href="https://github.com/Team-Rough-Puffs/products/tree/development/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Team-Rough-Puffs/products/issues">Request Feature</a>
+    <a href="https://github.com/Team-Rough-Puffs/products/tree/development/issues">Request Feature</a>
   </p>
 </p>
 
@@ -94,7 +87,7 @@ Your Name - [@Lucyyystrong](https://twitter.com/Lucyyystrong) - lucyarmstrong45@
 
 LinkedIn - [https://www.linkedin.com/in/lucyarmstrong1/]
 
-Project Link: [https://github.com/Team-Rough-Puffs/products](https://github.com/Team-Rough-Puffs/products)
+Project Link: [https://github.com/Team-Rough-Puffs/products/tree/development](https://github.com/Team-Rough-Puffs/products/tree/development)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
