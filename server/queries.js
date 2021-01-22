@@ -2,7 +2,7 @@ const pgConfig = require('./config.js');
 const { Client } = require('pg');
 const client = new Client(pgConfig);
 
-// FOR KIM/TOM REVIEW
+// connect server to database
 client.connect(err => {
   if (err) {
     console.error('connection error', err);
@@ -22,7 +22,6 @@ const getProducts = (callback)=> {
     }
   });
 };
-// `SELECT "PRODUCTS_MAIN".id, "PRODUCTS_MAIN".name, "PRODUCTS_MAIN".slogan, "PRODUCTS_MAIN".description, "PRODUCTS_MAIN".category, "PRODUCTS_MAIN".default_price, "FEATURES".feature, "FEATURES".value FROM "PRODUCTS_MAIN" WHERE id = ${prodID} INNER JOIN "FEATURES" ON "PRODUCTS_MAIN".id="FEATURES".product_id`
 
 const getItemsForProduct = (prodID, callback)=> {
   client.query(`SELECT "PRODUCTS_MAIN".id, "PRODUCTS_MAIN".name, "PRODUCTS_MAIN".slogan, "PRODUCTS_MAIN".description, "PRODUCTS_MAIN".category, "PRODUCTS_MAIN".default_price, "FEATURES".feature, "FEATURES".value FROM "PRODUCTS_MAIN" INNER JOIN "FEATURES" ON "PRODUCTS_MAIN".id="FEATURES".product_id WHERE "PRODUCTS_MAIN".id = ${prodID}`, (err, res) => {
