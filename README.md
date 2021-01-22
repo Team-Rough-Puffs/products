@@ -4,23 +4,8 @@
   <a href="https://github.com/Team-Rough-Puffs/products/tree/development">
   </a>
 
-  <h3 align="center">products</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/Team-Rough-Puffs/products/tree/development"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Team-Rough-Puffs/products/tree/development">View Demo</a>
-    ·
-    <a href="https://github.com/Team-Rough-Puffs/products/tree/development/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Team-Rough-Puffs/products/tree/development/issues">Request Feature</a>
-  </p>
+  <h3 align="center">products API</h3>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
